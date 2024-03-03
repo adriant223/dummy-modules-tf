@@ -6,7 +6,7 @@ variable "env" {
 variable "vpc_cidr_block" {
   description = "Main CIDR block range for the VPC."
   type        = string
-  default     = "10.0.0.0/16"
+  default     = "YourCIDR"
 }
 
 variable "azs" {
